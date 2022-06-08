@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export interface TitleStyleParams {
-  capitais?: object
+  capitais?: boolean
 }
 
 export const Text = styled.p<TitleStyleParams>`

@@ -1,19 +1,7 @@
 import React from 'react'
-import List from '@mui/material/List'
-import ListItem from '@mui/material/ListItem'
-import Typography from '@mui/material/Typography'
-import Box from '@mui/material/Box'
-import { styled } from '@mui/material/styles'
+import { List, ListItem, Box } from '@mui/material'
+import { ItemTitulo, ItemText } from './ListClimateCapitals.styles'
 
-const ItemTitulo = styled(Typography)(({ theme }) => ({
-  ...theme.typography.body2,
-  fontWeight: 400,
-}))
-
-const ItemText = styled(Typography)(({ theme }) => ({
-  ...theme.typography.body2,
-  fontWeight: 600,
-}))
 const ListClimateCapitals = () => {
   return (
     <Box sx={{ margin: '0 34px' }}>

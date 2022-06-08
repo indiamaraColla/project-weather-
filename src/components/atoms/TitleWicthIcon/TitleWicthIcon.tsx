@@ -3,7 +3,7 @@ import { Typography, Box } from '@mui/material'
 
 import { TitleWicthIconStyleParams } from './TitleWicthIcon.types'
 
-const TitleWicthIcon: React.FC<TitleWicthIconStyleParams> = ({ title, icon }) => {
+const TitleWicthIcon = ({ title, icon }: TitleWicthIconStyleParams) => {
   return (
     <Box sx={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: '4px' }}>
       {icon}

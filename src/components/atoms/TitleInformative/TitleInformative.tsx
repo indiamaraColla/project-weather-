@@ -3,7 +3,7 @@ import { Typography, Box } from '@mui/material'
 
 import { TitleInfoStyleParams } from './TitleInformative.types'
 
-const TitleInformative: React.FC<TitleInfoStyleParams> = ({ title, info, textInfo }) => {
+const TitleInformative = ({ title, info, textInfo }: TitleInfoStyleParams) => {
   return (
     <Box sx={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: '4px' }}>
       <Typography sx={{ fontWeight: '300' }} variant="subtitle1" component="div">

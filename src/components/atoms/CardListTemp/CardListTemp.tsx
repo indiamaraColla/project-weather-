@@ -1,16 +1,10 @@
 import React from 'react'
-import { Typography, Box, styled } from '@mui/material'
+import { Typography, Box } from '@mui/material'
 
 import { CardListTempStyleParams } from './CardListTemp.types'
+import { ItemGraus } from './CardListTemp.styles'
 
-const ItemGraus = styled(Typography)(({ theme }) => ({
-  ...theme.typography.body2,
-  textAlign: 'start',
-  color: 'orange',
-  lineHeight: '20px',
-}))
-
-const CardListTemp: React.FC<CardListTempStyleParams> = ({ title, subtitle }) => {
+const CardListTemp = ({ title, subtitle }: CardListTempStyleParams) => {
   return (
     <Box
       sx={{

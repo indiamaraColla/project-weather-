@@ -6,7 +6,7 @@ import { weatherService } from '../../../services/weather'
 import { CardInfo } from '../CardInfo'
 import { Title, Search } from '../../atoms'
 
-import { Weather } from './CardSearchCity.types'
+import { Weather } from '../../../types'
 
 const CardSearchCity = (): JSX.Element => {
   const [capitais, setCapitais] = useState<Weather>()
