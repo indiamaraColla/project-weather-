@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { Typography, Box } from '@mui/material'
-import ListaClimaCapitais from '../ListaClimaCapitais'
+import { ListaClimaCapitais } from '../../molecules'
 
 const CardCapitais = ({}) => {
   const rioJaneiro = 'Rio Janeiro'

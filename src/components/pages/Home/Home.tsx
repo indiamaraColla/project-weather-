@@ -1,7 +1,7 @@
 import React, { useState, ChangeEvent } from 'react'
 import { Box, Divider } from '@mui/material'
 
-import { weatherService } from '../../../services'
+import { weatherService } from '../../../services/weather'
 
 import { CardInfo, CardCapitais } from '../../organisms'
 import { Title, Search } from '../../atoms'
