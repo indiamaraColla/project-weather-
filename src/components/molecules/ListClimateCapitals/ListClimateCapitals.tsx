@@ -14,7 +14,7 @@ const ItemText = styled(Typography)(({ theme }) => ({
   ...theme.typography.body2,
   fontWeight: 600,
 }))
-const ListaClimaCapitais = () => {
+const ListClimateCapitals = () => {
   return (
     <Box sx={{ margin: '0 34px' }}>
       <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'start', marginTop: '10px' }}>
@@ -49,4 +49,4 @@ const ListaClimaCapitais = () => {
   )
 }
 
-export default ListaClimaCapitais
+export default ListClimateCapitals

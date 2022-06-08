@@ -1,18 +1,18 @@
 export interface CardInfoProps {
-  capitais: WeatherInfo
+  capitais: WeatherInfoProps
 }
 
-export interface WeatherInfo {
+export interface WeatherInfoProps {
   city: string
   humidity: number
   wind_speedy: string
   condition_code: number
-  forecast: Array<Forecast>
+  forecast: Array<PropsForecast>
   temp: number
   description: string
 }
 
-export interface Forecast {
+export interface PropsForecast {
   weekday: string
   max: number
   min: number

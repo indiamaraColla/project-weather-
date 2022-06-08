@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Typography, Box } from '@mui/material'
 import { ListaClimaCapitais } from '../../molecules'
 
-const CardCapitais = ({}) => {
+const CardCapitals = ({}) => {
   const rioJaneiro = 'Rio Janeiro'
   const saoPaulo = 'Cascavel'
 
@@ -28,4 +28,4 @@ const CardCapitais = ({}) => {
   )
 }
 
-export default CardCapitais
+export default CardCapitals

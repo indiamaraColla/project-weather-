@@ -1,4 +1,4 @@
-export interface WeatherInfo {
+export interface Weather {
   city: string
   humidity: number
   wind_speedy: string
