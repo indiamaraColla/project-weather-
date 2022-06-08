@@ -1,1 +1,1 @@
-export * from './ListaClimaCapitais'
+export * from './ListClimateCapitals'
