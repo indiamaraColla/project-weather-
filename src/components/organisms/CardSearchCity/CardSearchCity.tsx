@@ -13,7 +13,7 @@ const CardSearchCity = (): JSX.Element => {
 
   const [city, setCity] = useState<string>('')
 
-  const handleChange = async (event: ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     setCity(event.target.value)
   }
 

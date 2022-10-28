@@ -1,8 +1,21 @@
-import { Typography, styled } from '@mui/material'
+import { Typography, Box, styled } from '@mui/material'
 
-export const ItemGraus = styled(Typography)(({ theme }) => ({
-  ...theme.typography.body2,
-  textAlign: 'start',
-  color: 'orange',
-  lineHeight: '20px',
-}))
+const StyledItemGraus = styled(Typography)`
+  color: orange;
+`
+
+const StyledBox = styled(Box)`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`
+const StyledTitle = styled(Typography)`
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.00938em;
+  text-align: center;
+`
+
+export { StyledItemGraus, StyledBox, StyledTitle }

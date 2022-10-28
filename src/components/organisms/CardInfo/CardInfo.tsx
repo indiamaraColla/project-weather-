@@ -5,7 +5,7 @@ import { ArrowDownward, ArrowUpward } from '@mui/icons-material'
 import { CardListTemp, TitleWicthIcon, TitleInformative } from '../../atoms'
 import { CardInfoProps } from './CardInfo.types'
 
-import { Container } from './CardInfo.styles'
+import { Container, StyledBox } from './CardInfo.styles'
 
 const CardInfo = ({ capitais }: CardInfoProps) => {
   return (
@@ -33,11 +33,11 @@ const CardInfo = ({ capitais }: CardInfoProps) => {
 
       <Divider sx={{ borderColor: 'orange', margin: { xs: '10px 0', md: '10px 0' } }} />
 
-      <Box sx={{ display: 'flex', alignItems: 'center', pl: 3, pr: 3 }}>
+      <StyledBox>
         {capitais?.forecast?.map((value, index) => (
           <CardListTemp key={index} title={value.weekday} subtitle={`${value.min}° ${value.max}°`} />
         ))}
-      </Box>
+      </StyledBox>
     </Container>
   )
 }

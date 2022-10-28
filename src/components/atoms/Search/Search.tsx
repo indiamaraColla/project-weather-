@@ -10,9 +10,9 @@ const Search = ({ placeholder, value, onChange, inputProps, onBlur, onClick }: P
         <InputBase
           sx={{ ml: 1, flex: 1, borderRadius: '0', outlined: 'none' }}
           value={value}
-          onChange={onChange}
           placeholder={placeholder}
           inputProps={inputProps}
+          onChange={onChange}
           onBlur={onBlur}
         />
         <IconButton onClick={onClick} sx={{ p: '10px' }} aria-label="search">

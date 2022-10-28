@@ -7,9 +7,7 @@ const TitleWicthIcon = ({ title, icon }: TitleWicthIconStyleParams) => {
   return (
     <Box sx={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: '4px' }}>
       {icon}
-      <Typography variant="subtitle1" component="div">
-        {title}
-      </Typography>
+      <Typography variant="subtitle1">{title}</Typography>
     </Box>
   )
 }

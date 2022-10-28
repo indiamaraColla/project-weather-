@@ -3,7 +3,21 @@ import { List } from '@mui/material'
 
 export const CardList = styled(List)``
 
-export const ItemText = styled(Typography)(({ theme }) => ({
-  ...theme.typography.body2,
-  fontWeight: 600,
-}))
+export const styles = {
+  minimum: {
+    width: '26px',
+    marginLeft: '14px',
+  },
+  city: {
+    marginLeft: '14px',
+  },
+}
+
+export const boxListItem = {
+  display: 'grid',
+  gridTemplateColumns: '30px 30px 1fr',
+}
+
+export const ItemText = styled(Typography)`
+  font-weight: 600;
+`
